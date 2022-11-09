@@ -14,9 +14,9 @@ main {
 }
 
 .header-trybe {
-  display: block;
+  display:;
   text-align: center;
-  height: 150px;
+  height: 200px;
   margin-bottom: 50px;
   border-bottom: 1px solid;
 }
@@ -38,4 +38,8 @@ main {
   resize: none;
   width: 500px;
   height: 100px;
+}
+
+.form-select{
+  width: 80px;
 }

@@ -14,9 +14,9 @@ main {
 }
 
 .header-trybe {
-  display:;
+  display:block;
   text-align: center;
-  height: 200px;
+  height: 90px;
   margin-bottom: 50px;
   border-bottom: 1px solid;
 }
@@ -42,4 +42,15 @@ main {
 
 .form-select{
   width: 80px;
+}
+ 
+h1 {
+  display: inline;
+  float: left;
+  margin-left: 30px;
+}
+
+img {
+float: right;
+margin-right: 30px;
 }

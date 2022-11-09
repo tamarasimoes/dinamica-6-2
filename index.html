@@ -12,8 +12,39 @@
 </head>
 
 <body>
-  <!-- Seu código aqui -->
-  
+  <header class="header-trybe">
+    <h1>Trybe Hotel</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s%22 alt=">
+  </header>
+  <form action="">
+    <section class="hotel-form">
+      <input type="date" name="dataCheckin" class="inputCheckin">
+      <input type="date" name="dataCheckout" class="inputCheckout">
+    </section>
+    <section class="hotel-form">
+      <p>Acomodação</p>
+      <input type="radio" name="typeBedroom" class="bedroom" id="commun">
+      <label for="commun">Comum</label>
+      <input type="radio" name="typeBedroom" id="club" class="bedroom">
+      <label for="club">Club</label>
+      <input type="radio" name="typeBedroom" id="lux" class="bedroom">
+      <label for="lux">Luxo</label>
+    </section>
+    <section class="hotel-form">
+     <label>Numero de hospedes</label><br>
+      <select name="numberHospedes" class="nPessoas">
+      <option value="1">1</option>
+      <option value="2" selected>2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+     </select>
+    </section>
+    <section class="hotel-form">
+      <textarea name="obs" class="obs" cols="30" rows="1" placeholder="Observações"></textarea>
+    </section>
+    <button type="submit">Reservar</button>
+  </form>
+  <script src="script.js"></script>
 </body>
 
 </html>

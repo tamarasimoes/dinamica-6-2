@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -12,8 +12,40 @@
 </head>
 
 <body>
-  <!-- Seu código aqui -->
+<!-- Seu código aqui -->
+  <section class="hotel-form">
+    <h3>Checkin Date</h3>
+    <input type="date" class="inputCheckin">
+    <br>
+    <h3>Checkout Date</h3>
+    <input type="date" class="inputCheckout">
+    <br>
+    <p>Acomodação</p>
+    <form action="" method="get">
+      <label for="bedroom">Quarto-Comum</label>
+      <input type= "radio" class="bedroom" name="Quarto_1" value="Quarto-Comum">
+    
+      <label for="bedroom">Quarto-Club</label>
+      <input type= "radio" name="Quarto_2" value="Quarto-Club" class="bedroom">
+
+      <label for="bedroom">Quarto-Luxo</label>
+      <input type= "radio" class="bedroom" name="Quarto_3" value="Quarto-Luxo">
+    </form>
+    <textarea name="Observações" class="obs" cols="30" rows="10" placeholder="Campo de  observações"></textarea>
+    <br>
+    <button type="submit">Enviar Formulário</button>
+  </section>
+  <!-- <form>
+    <p>Veuillez choisir la meilleure méthode pour vous contacter :</p>
+    <div>
+      <input type="radio" id="contactChoice1"
+       name="contact" value="email">
+      <label for="contactChoice1">Email</label>
   
+      <input type="radio" id="contactChoice2"
+       name="contact" value="telephone">
+      <label for="contactChoice2">Téléphone</label>
+  </form> -->
 </body>
 
 </html>

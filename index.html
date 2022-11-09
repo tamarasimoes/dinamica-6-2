@@ -12,8 +12,45 @@
 </head>
 
 <body>
-  <!-- Seu código aqui -->
   
+  <header class="header-trybe">
+   <h1>Hotel trybe</h1>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s" alt="Logo da Trybe">
+  </header>
+<form action="">
+  <section class="hotel-form">
+    <label for="input-checkin">Check-in</label>
+    <input class="inputCheckin" type="date" id="input-checkin">
+    <br>
+    <label for="input-checkout">Check-out</label>
+    <input class="inputCheckout" type="date" id="input-checkout">
+  </section>
+
+  <section class="hotel-form">
+    <p>Acomodação</p>
+    <label for="quarto-comum">Comum</label>
+    <input class="bedroom" name="acomodacao" type="radio" id="quarto-comum">
+    <label for="quarto-club">Club</label>
+    <input class="bedroom" name="acomodacao" type="radio" id="quarto-club">
+    <label for="quarto-luxo">Luxo</label>
+    <input class="bedroom" name="acomodacao" type="radio" id="quarto-luxo">
+  </section>
+
+  <section class="hotel-form">
+    <select name="hospedes" id="hospedes">
+      <option class="nPessoas" value="n1">1</option>
+      <option class="nPessoas" value="n2">2</option>
+      <option class="nPessoas" value="n3">3</option>
+      <option class="nPessoas" value="n4">4</option>
+    </select>
+  </section>
+
+  <section class="hotel-form">
+    <textarea class="obs" placeholder="Escreva aqui suas observações" name="observacoes" id="observacoes" cols="30" rows="10"></textarea>
+  </section>
+
+  <button class="btn btn-success" type="submit">Enviar</button>
+</form>  
 </body>
 
 </html>

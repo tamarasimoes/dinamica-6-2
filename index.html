@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -12,8 +12,41 @@
 </head>
 
 <body>
-  <!-- Seu código aqui -->
-  
+  <header class="header-trybe">
+    <h1 class="display-2">Trybe Hotel</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s%22 alt=">
+  </header>
+  <form action="">
+    <section class="hotel-form">
+      <label for="">Data de Check-in</label> <br>
+      <input type="date" required name="dataCheckin" class="inputCheckin"> <br>
+      <label for="">Data de Check-out</label><br>
+      <input type="date" required name="dataCheckout" class="inputCheckout">
+    </section>
+    <section class="hotel-form acomodation">
+      <p>Acomodação:</p>
+      <input type="radio" required name="typeBedroom" class="bedroom btn-check" id="commun">
+      <label for="commun" class="btn btn-outline-success">Comum</label>
+      <input type="radio" required name="typeBedroom" id="club" class="bedroom btn-check">
+      <label for="club" class="btn btn-outline-success">Club</label>
+      <input type="radio" required name="typeBedroom" id="lux" class="bedroom btn-check">
+      <label for="lux" class="btn btn-outline-success">Luxo</label>
+    </section>
+    <section class="hotel-form">
+     <label>Número de Hóspedes:</label><br>
+      <select name="numberHospedes" class="nPessoas form-select container">
+      <option value="1">1</option>
+      <option value="2" selected>2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+     </select>
+    </section>
+    <section class="hotel-form">
+      <textarea name="obs" class="obs container form-control" cols="30" rows="1" placeholder="Observações"></textarea>
+    </section>
+    <button type="submit" class="btn btn-outline-success btn-lg">Reservar</button>
+  </form>
+  <script src="script.js"></script>
 </body>
 
 </html>
